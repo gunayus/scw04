@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/owfont-regular.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Book store</title>
+</head>
+<body>
+    <div id="twitter"><a href="https://twitter.com/spring1platform">@spring1platform</a></div>
+	<h1>Book store</h1>
+	<ul>
+		{{#books}}
+		<li>
+			<h2>{{id}}, {{name}}</h2>
+			<div style="clear: both;"></div>
+		</li>
+		{{/books}}
+	</ul>
+
+</body>
+</html>
